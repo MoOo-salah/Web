@@ -1,0 +1,158 @@
+:root {
+    --blue-color:#0075ff;
+    --blue-alt-color:#0d69d5;
+    --orange-color:#f59e0b;
+    --green-color:#22c55e;
+    --red-color:#f44336;
+    --grey-color:#888;
+    --image-background:url(../images/ss.png)
+ }
+/*start BOX*/
+.d-flex{
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+.align-center {
+    align-items: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+/*End BOX*/
+/*start padding + margin*/
+
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.p-absolute {
+    padding: absolute;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pt-0 {
+    padding-top: 0;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.m-10 {
+    margin: 10px;
+}
+.m-5 {
+    margin: 5px;
+}
+.mt-0 {
+  margin-top: 0;  
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+/*End padding + margin*/
+/*start color*/
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.c-black {
+    color: black;
+}
+.c-grey {
+    color: var(--grey-color);
+}
+.c-blue {
+    color: var(--blue-color);
+}
+/*End color*/
+/*stare position*/
+.p-relative {
+    position: relative;
+}
+/*End position*/
+/*start font*/
+.txt-c {
+    text-align: center;
+}
+.fs-14 {
+    font-size: 14px;
+}
+@media (max-width: 767px){
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+/*end font*/
+/*start border*/
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+/*end border*/
+
+/*start components */
+.between-flex {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+/*End  components */
+
+/*start width */
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.w-50 {
+width: 50px;
+}
+.w-30 {
+    width: 30px;
+}
+.w-20 {
+    width: 20px;
+}
+/*End width */
